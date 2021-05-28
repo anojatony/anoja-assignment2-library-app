@@ -1,0 +1,482 @@
+/* override bootstrap styles */
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+body { 
+  /* padding-top:50px; */ 
+  /* color:#646464; */
+  /* color: #1F6521; */
+  background-color:#D8C3A5;
+}
+#bodi{
+  background-image: url(https://wallpaperaccess.com/full/2862101.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bodi h1{
+  color: white;
+  font-weight: bolder;
+  margin-top: 28%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.welcome a{
+  text-align: center;
+  margin-left: 40%;
+  border: 1px solid #fff;
+  background-color: #3B5998;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+  font-weight: bolder;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome a:hover{
+  background: #fff;
+	color: #3B5998;
+  border: 2px solid #3B5998;
+}
+#bod{
+  background-image: url(https://cdn.wallpapersafari.com/47/81/OzKNAG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bod h3,label{
+ color: white;
+}
+#foot{
+  margin-top: 30%;
+}
+.bookk h3{
+  color: crimson;
+  font-family: Apple Chancery, cursive;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+.bookkk h3{
+  color: crimson;
+  font-family: Apple Chancery, cursive;
+  font-weight: bolder;
+  
+}
+/* .bookk .label{
+  color: white;
+  background-color: #895061;
+} */
+.bookk .aut{
+  color: orangered;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: justify;
+}
+.bookkk .aut{
+  color: orangered;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: justify;
+}
+.bookk .autt{
+  text-align: justify;
+  margin-left: 20px;
+}
+.bookk .text{
+  color: darkgreen;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bookkk .text{
+  color: darkgreen;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bookk .text-muted{
+  color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bookkk .text-muted{
+  color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+
+
+footer {
+
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: #46344E;
+  color: white;
+  font-weight: bolder;
+ 
+}
+
+#footer{
+  text-align: center;
+  color: brown;
+}
+#footer h4{
+  font-weight: bolder;
+}
+#masthead {
+  min-height:199px;
+  background-color:#46344E;
+  color:#aaaacc;
+  font-weight: bolder;
+}
+#mastheadd{
+  background-image: url(https://cdn.wallpapersafari.com/47/81/OzKNAG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mastheadd label{
+  color: white;
+}
+#mastheadd h3{
+  color: white;
+}
+#mastheaddr{
+  background-image: url(https://i.pinimg.com/originals/b4/bf/af/b4bfafa2dccc4cf3fe24f774b3f13b12.jpg);
+}
+
+
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  color:#fefeff;
+  margin-top:50px;
+}
+
+#masthead .well {
+  margin-top:31px;
+  background-color:#374785;
+  border-color:#000022;
+  color:#efefff;
+  min-height:127px;
+}
+.heading h3{
+  color: brown;
+}
+.btn{
+  background-color: crimson;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+}
+.btn:hover{
+  background-color: white;
+  color: crimson;
+  font-weight: bolder;
+  border: 1px solid crimson;
+  outline: none;
+}
+.btn, [type="submit"]:focus {
+  outline: none;
+}
+
+.head a{
+  color: #4056A1;
+  font-size: medium;
+  font-weight: bold;
+}
+
+/* book */
+
+
+#topPanel {
+  padding-top:0px;
+  padding-left:22px;
+  padding-right:22px;
+}
+#topPanel .panel-body {
+  padding-top:0px;
+}
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+.top-spacer {
+  background-color:#ffffff;
+  height:60px;
+}
+
+a,a:hover {
+  color:#223344;
+  text-decoration:none;
+}
+
+.icon-bar {
+  background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.navbar-bright {
+  background-color:#5a5560;
+  /* background-color:#1E4258; */
+  color:#fff;
+  margin-bottom: 0;
+  border-width: 0;
+  font-weight: bolder;
+}
+
+.navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+  color:#ccccdd;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing:.08em;
+}
+
+.navbar-bright li > a:hover {
+  background-color:darkgrey;
+  color: black;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#fff;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
+
+/* login */
+.center-signn h3{
+  margin-top: 40px;
+  margin-left: 32%;
+  margin-bottom: 45px;
+  font-weight: bolder;
+}
+
+.center-signn{
+  margin-top: 11%;
+  max-width: 400px;
+  width: 100%;
+  background-color: rgb(0,0,0,0.6);
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-bottom: 90px;
+}
+
+.center-signn .button-align{
+  text-align: center;
+}
+
+.center-signn a{
+  text-decoration: none;
+  color: white;
+}
+.center-signn a:hover{
+  color: #4C6BBA;
+  text-decoration: none;
+}
+
+
+#txtarea{
+  border: none;
+}
+#txtarea:focus{
+  outline: none;
+}
+#textareaa{
+  border: none;
+}
+#textareaa:focus{
+  outline: none;
+}
+
+
+/* signup */
+.center-sign h3{
+  margin-top: 40px;
+  margin-left: 30%;
+  margin-bottom: 45px;
+  font-weight: bolder;
+}
+
+.center-sign{
+  margin-top: 10%;
+  max-width: 700px;
+  width: 100%;
+  background-color: rgb(0,0,0,0.6);
+  padding: 25px 40px;
+  border-radius: 5px;
+  margin-bottom: 90px;
+}
+
+.center-sign .button-align{
+  text-align: center;
+}
+
+.center-sign a{
+  text-decoration: none;
+  color: white;
+}
+.center-sign a:hover{
+  color: #4C6BBA;
+  text-decoration: none;
+}
+.text-center{
+  margin-top: 10px;
+}
+.text-centerr{
+  margin-top: 35px;
+}
+
+#bo{
+  justify-content: center;
+  align-items: center;
+}
+input[type='file'] {
+  color: white; 
+}
+#lo{
+  justify-content: center;
+  align-items: center;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+
+
+/* add author */
+.center-signa h3{
+  margin-top: 40px;
+  margin-left: 23%;
+  margin-bottom: 45px;
+  font-weight: bolder;
+}
+
+.center-signa{
+  margin-top: 10%;
+  max-width: 542px;
+  width: 100%;
+  background-color: rgb(0,0,0,0.6);
+  padding: 25px 40px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+
+.center-signa .button-align{
+  text-align: center;
+}
+
+.center-signa a{
+  text-decoration: none;
+  color: white;
+}
+.center-signa a:hover{
+  color: #4C6BBA;
+  text-decoration: none;
+}
+
+/* add book */
+.center-signb h3{
+  margin-top: 40px;
+  margin-left: 33%;
+  margin-bottom: 45px;
+  font-weight: bolder;
+}
+
+.center-signb{
+  margin-top: 12%;
+  max-width: 740px;
+  width: 100%;
+  background-color: rgb(0,0,0,0.6);
+  padding: 25px 40px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.center-signb .button-align{
+  text-align: center;
+}
+
+.center-signb a{
+  text-decoration: none;
+  color: white;
+}
+.center-signb a:hover{
+  color: #4C6BBA;
+  text-decoration: none;
+}

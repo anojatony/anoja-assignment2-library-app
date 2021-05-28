@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%=title%></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body id="bod">
+<!-- navbar starts -->
+
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">Home</a>
+      </div>
+      <nav class="collapse navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+        <%for(i=0;i<nav.length;i++){%>
+          <li>
+            <a href="<%=nav[i].link%>"><%=nav[i].name%></a>
+          </li>
+          <%}%>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- <div id="mastheadd">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          
+        </div>
+        
+      </div> 
+    </div>/cont -->
+
+<!-- navbar ends -->
+<!-- Form starts -->
+
+<div class="container center-signa">
+  
+  <div class="row justify-content-center">
+     
+<form action="#" method="POST" onsubmit="return addauthor();">
+  
+    <h3>ADD AUTHOR DETAILS</h3>
+    <div class="form-group">
+      <label >Author Name *</label>
+      <input  class="form-control" id="au" name="author" placeholder="Author name" required>
+      <label  id="author"></label>
+    </div>
+    <div class="form-group">
+      <label >Description *</label>
+      <textarea  id="textareaa" class="form-control" cols="68" rows="4" placeholder="Type Your Content here" required></textarea>
+      <label  id="texterror"></label>
+    </div>
+    <div class="form-group">
+      <label >Image *</label>
+      <input type="file" class="form-control-file" id="im" name="image" required>
+      <label  id="image"></label>
+    </div class="button-align">
+    <button type="submit" class="btn btn-block">ADD AUTHOR</button>
+    </div>
+  </form>
+</div>
+</div>
+<!-- Form ends -->
+
+<!-- footer starts -->
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <ul class="list-inline">
+            <li><i class="icon-facebook icon-2x"></i></li>
+            <li><i class="icon-twitter icon-2x"></i></li>
+            <li><i class="icon-google-plus icon-2x"></i></li>
+            <li><i class="icon-pinterest icon-2x"></i></li>
+          </ul>
+          
+        </div>
+        <div class="col-sm-6">
+            <p class="pull-right">Built By <i class="icon-heart-empty"></i> Anoja </p>      
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- ends -->
+
+ <!-- JS -->
+ <!-- <script src="/public/js/validate.jss"></script> -->
+ <script src="js/signup.js"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+ <!--  -->
+</body>
+</html>
